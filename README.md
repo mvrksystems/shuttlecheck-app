@@ -1,4 +1,4 @@
-# ShuttleCheck — downloads
+# ShuttleCheck · downloads
 
 Builds of the ShuttleCheck app, by [MVRK Systems](https://mvrk.systems/shuttlecheck).
 
@@ -12,15 +12,17 @@ be emailed to people one at a time.
 
 | | |
 |---|---|
-| Windows | `ShuttleCheck-windows.zip` — 64-bit |
-| macOS, Apple Silicon | `ShuttleCheck-macos-arm64.zip` — M1 and later |
-| macOS, Intel | `ShuttleCheck-macos-intel.zip` |
+| Windows | `ShuttleCheck-<version>-windows.exe` · 64-bit, Windows 10 and 11 |
+| macOS, Apple Silicon | `ShuttleCheck-<version>-macos-arm64.zip` · M1 and later |
+| macOS, Intel | `ShuttleCheck-<version>-macos-intel.zip` |
 
-Unzip, double-click. No Python, no terminal, no install wizard.
+Windows: run the `.exe`. macOS: unzip and move ShuttleCheck to Applications.
+It opens in its own window; closing the window quits it. No Python, no
+terminal, no install wizard.
 
-`FIRST-RUN.txt` travels in each zip. Read it: the app is not code-signed yet,
-so Windows and macOS will both warn you the first time you open it, and that
-note walks through it.
+`FIRST-RUN.txt` is attached to every release. Read it: the app is not
+code-signed yet, so Windows and macOS will both warn you the first time you
+open it, and that note walks through it.
 
 Every release carries `SHA256SUMS.txt`. Verify before running:
 
@@ -30,26 +32,27 @@ sha256sum -c SHA256SUMS.txt      # or: shasum -a 256 -c SHA256SUMS.txt
 
 ## What it costs
 
-Free while it is in testing.
-
-Everything that reads is free permanently — working out the naming convention a
+Free, permanently, with no account: working out the naming convention a
 finished job already follows, checking a tree against it, checking a drive that
-arrived, and seeing exactly which files would be renamed.
+arrived, sealing a drive, writing vendor packs, and seeing exactly which files
+a conform would rename.
 
-Conforming, sealing a drive and vendor packs need a licence key. Ask at
-hello@mvrk.systems and we will send you one; there is nothing to pay.
+A licence carries the rename out and undoes it: conforming, renaming by hand,
+and undo. Licences are per machine; request one at
+[mvrk.systems/buy](https://mvrk.systems/buy).
 
 ## Checking inside the files
 
 Names, folders and structure work out of the box. Codec, resolution, frame
-rate, audio and duration need `ffprobe` on your PATH — install ffmpeg
+rate, audio and duration need `ffprobe` on your PATH; install ffmpeg
 (`winget install ffmpeg`, `brew install ffmpeg`). Without it the report says
 those checks were skipped, not that they passed.
 
 ## Reporting something
 
-hello@mvrk.systems, or open an issue here. There is no telemetry of any kind,
-so we do not know anything went wrong unless you tell us.
+hello@mvrk.systems, or open an issue here. Telemetry is off unless you switch
+it on in Settings, and even then it sends counts, never filenames or paths, so
+unless you tell us we do not know anything went wrong.
 
 ---
 
