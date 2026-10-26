@@ -1,23 +1,23 @@
 {
-  "version": "0.5.2",
+  "version": "0.5.3",
   "url": "https://github.com/mvrksystems/shuttlecheck-app/releases",
-  "notes": "https://github.com/mvrksystems/shuttlecheck-app/releases/tag/v0.5.2",
+  "notes": "https://github.com/mvrksystems/shuttlecheck-app/releases/tag/v0.5.3",
   "published": "2026-10-26",
   "downloads": {
     "windows": {
-      "url": "https://github.com/mvrksystems/shuttlecheck-app/releases/download/v0.5.2/ShuttleCheck-0.5.2-windows.exe",
-      "sha256": "22791d159a6198ee4745cca4425d845bb4396162522287a8a48389a498af8e74",
-      "size": 25578757
+      "url": "https://github.com/mvrksystems/shuttlecheck-app/releases/download/v0.5.3/ShuttleCheck-0.5.3-windows.exe",
+      "sha256": "2dc5858c34a5c0df67e80a6f4c16f570f3269179a33aafedb38176d172ec3925",
+      "size": 25578674
     },
     "macos-arm64": {
-      "url": "https://github.com/mvrksystems/shuttlecheck-app/releases/download/v0.5.2/ShuttleCheck-0.5.2-macos-arm64.zip",
-      "sha256": "3730a11d21ab3f029fd992090bf8697991fb3297dc356d335ef1be441481c1a9",
-      "size": 24293074
+      "url": "https://github.com/mvrksystems/shuttlecheck-app/releases/download/v0.5.3/ShuttleCheck-0.5.3-macos-arm64.zip",
+      "sha256": "4ed0087049154172bf943be61e118a448ab16ed5ee8e9f2006ff8be821dce903",
+      "size": 24292504
     },
     "macos-intel": {
-      "url": "https://github.com/mvrksystems/shuttlecheck-app/releases/download/v0.5.2/ShuttleCheck-0.5.2-macos-intel.zip",
-      "sha256": "59cea36f1cc798abfa20b11c34dc3946eee3f6f95a7108490679bb0155d00469",
-      "size": 25430625
+      "url": "https://github.com/mvrksystems/shuttlecheck-app/releases/download/v0.5.3/ShuttleCheck-0.5.3-macos-intel.zip",
+      "sha256": "bd1b434164a0e6b890e255183ee5c859a658ef00a92cbe51fa5ec636c920b8b0",
+      "size": 25431044
     }
   }
 }
