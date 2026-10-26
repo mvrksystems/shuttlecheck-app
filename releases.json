@@ -1,6 +1,23 @@
 {
-  "version": "0.5.0",
+  "version": "0.5.1",
   "url": "https://github.com/mvrksystems/shuttlecheck-app/releases",
-  "notes": "https://github.com/mvrksystems/shuttlecheck-app/releases/tag/v0.5.0",
-  "published": "2026-10-25"
+  "notes": "https://github.com/mvrksystems/shuttlecheck-app/releases/tag/v0.5.1",
+  "published": "2026-10-26",
+  "downloads": {
+    "windows": {
+      "url": "https://github.com/mvrksystems/shuttlecheck-app/releases/download/v0.5.1/ShuttleCheck-0.5.1-windows.exe",
+      "sha256": "1f5c484b10c62fe57b4fcdadbf0f7dc3ee47c827b2eb63a60663fbfede7d847b",
+      "size": 25740732
+    },
+    "macos-arm64": {
+      "url": "https://github.com/mvrksystems/shuttlecheck-app/releases/download/v0.5.1/ShuttleCheck-0.5.1-macos-arm64.zip",
+      "sha256": "0c3208f83a53727c05fd543e8946160c9dcaa49fdf0b0752240d928f6cb937e6",
+      "size": 24472488
+    },
+    "macos-intel": {
+      "url": "https://github.com/mvrksystems/shuttlecheck-app/releases/download/v0.5.1/ShuttleCheck-0.5.1-macos-intel.zip",
+      "sha256": "82bc9d1802fa44d2ed0771662e32d854b2199ce93af9ed5da8fecd0b62594472",
+      "size": 25611108
+    }
+  }
 }
